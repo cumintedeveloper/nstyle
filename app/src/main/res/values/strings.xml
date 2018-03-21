@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Nstyle</string>
+    <string name="login">Log in</string>
+    <string name="home">home</string>
+    <string name="booknow">Book Now</string>
+    <string name="callus">Call</string>
+    <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="Dob">DATE OF BIRTH</string>
+    <string name="fristname"> Frist Name</string>
+    <string name="lasttname"> Last Name</string>
+    <string name="phoneNumber"> Phone Number</string>
+    <string name="email">Email Id</string>
+    <string name="password">******</string>
+    <string name="gift">Gift</string>
+    <string name="dob">DD/MM/YYYY</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="location">Location</string>
+    <string name="feedback">Feedback</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="service_menu">Service Menu</string>
+    <string name="promotion">Promotions</string>
+    <string name="register">Register</string>
+    <string name="signup">Sign up</string>
+    <string name="veryfy_password">VERIFY PASSWORD</string>
+    <string name="pass">PASSWORD</string>
+    <string name="nationality">NATIONALITY</string>
+    <string name="allready_login">Already a member?Log in</string>
+    <string name="menu">Menu</string>
+    <string name="image">UPLOAD IMAGE(optinal)</string>
+    <string name="textdata">Hi,</string>
+    <string name="textdata2">Get east access to Your NStyle Beauty account,iterective features,and app-only exclusives</string>
+    <string name="call">+1(514)849-577</string>
+</resources>

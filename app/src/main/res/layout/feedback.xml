@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="127dp"
+        android:background="@drawable/trans_black_rectangle"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+
+        <ImageView
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/image"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="Sandra Smith"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:textSize="@dimen/dp_30"
+                android:textColor="@color/white"
+                android:fontFamily="@font/fonts_gotham"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/dp_20">
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_20"
+                    android:text="394"/>
+
+                <TextView
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.8"
+                    android:textSize="@dimen/dp_20"
+                    android:text="* until next reward"
+                    android:textColor="@color/golden"/>
+
+
+            </LinearLayout>
+
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/reward"-->
+            <!--android:layout_marginRight="@dimen/dp_120"-->
+            <!--/>-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="32dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="25dp"
+                        android:src="@drawable/back_symbol1"/>
+               <Button
+                   android:layout_width="100dp"
+                   android:layout_height="35dp"
+                   android:layout_marginLeft="0dp"
+                   android:layout_marginTop="40dp"
+                   android:text="Go back"
+                   android:background="@color/white"
+                   android:textColor="#292929"
+                   android:fontFamily="@font/fonts_gotham"
+                   android:src="@drawable/back_symbol1"
+                   android:textAllCaps="false"
+                   android:textSize="23dp"/>
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="40dp"
+                        android:text="Feedback"
+                        android:background="@color/white"
+                        android:textColor="#292929"
+                        android:fontFamily="@font/fonts_gotham"
+                        android:src="@drawable/back_symbol1"
+                        android:textAllCaps="false"
+                        android:textSize="23dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.2dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="27dp"
+                    android:background="#292929" />
+
+                <EditText
+                    android:layout_width="232dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textAllCaps="false"
+                    android:text="Subject"
+                    android:textColor="#000000"
+                    android:textSize="18dp" />
+
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="200dp"
+                    android:background="@color/black"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="NEXT"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <include android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/bottom_menu"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+</LinearLayout>

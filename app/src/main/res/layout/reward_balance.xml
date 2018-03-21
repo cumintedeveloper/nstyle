@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="fill_vertical"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/trans_black_rectangle"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/image" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="-80dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="Sandra Smith"
+                    android:textColor="@color/white"
+                    android:textSize="28dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="85dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="REWARD BALANCE"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="10dp"
+                    android:text="394 *"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="39.4"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="43dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="-14dp"
+                    android:text="AED"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textColor="@color/white"
+                    android:textSize="13dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@android:color/white" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="30dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="MEMBERSHIP STATUS"
+                    android:textColor="#fff"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/reward_rounded" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="-160dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="Sandra Smith"
+                    android:textColor="#fff"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="232dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="54dp"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="Gold Member"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+                <View
+                    android:layout_width="250dp"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#424242" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="58dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:text="NStyle Reward"
+                    android:textColor="#000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Gold Status untill 20/02/19"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Earn 400 starts by 20/02/19 for another year of Gold"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="14dp" />
+
+
+                <ProgressBar
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="300dp"
+                    android:layout_height="4dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerInParent="true"
+                    android:max="100"
+                    android:minHeight="100dp"
+                    android:progress="50"
+                   android:theme="@style/LinearProgress"
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="4dp"
+                    android:text="600 stars to reach Platnium Level"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="13dp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="35dp"
+                    android:background="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="EARN STARS"
+                    android:textColor="@color/golden"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="As a Gold member you earn 2 stars for every 1 AED spent."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="17dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="REDEEM STARS"
+                    android:textColor="@color/golden"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"
+                    android:text="[100] stars is a required minimum  for redemption."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="To redeem stars, advice the  receptionist "
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/fonts_gotham"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2">
+        <include
+            layout="@layout/bottom_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+</RelativeLayout>

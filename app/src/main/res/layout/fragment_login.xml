@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/image_login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/sv1"
+        android:layout_marginBottom="10dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="1dp"
+        android:background="@drawable/trans_white_rectangle">
+
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="120sp"
+            android:src="@drawable/nstyle_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="USERNAME"
+            android:textColor="#6d6e70"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="30dp"
+            android:textSize="@dimen/dp_20"
+            android:fontFamily="@font/fonts_gotham"
+            />
+
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#fff"
+            android:layout_marginTop="@dimen/dp_20"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:fontFamily="@font/fonts_gotham"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#6d6e70"
+            android:text="PASSWORD"
+            android:textSize="@dimen/dp_20"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="40sp"
+            android:layout_marginStart="30dp"
+            android:fontFamily="@font/fonts_gotham"/>
+
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="#fff"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:password="true" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="34dp"
+            android:layout_marginTop="34dp"
+            android:background="@color/black"
+            android:elevation="4dp"
+            android:padding="15dp"
+            android:onClick="login"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:text="@string/login"
+            android:textAllCaps="false"
+            android:fontFamily="@font/fonts_gotham"
+            android:textColor="@color/white" />
+    </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/forgot_password"
+        style="@android:style/TextAppearance.DeviceDefault"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Forgot Your Password?"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:fontFamily="@font/fonts_gotham"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

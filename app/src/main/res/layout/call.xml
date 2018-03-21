@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="290dp"
+    android:layout_height="140dp"
+    android:background="@drawable/rounded_window"
+    android:layout_marginTop="190dp"
+    android:layout_marginLeft="45dp">
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:inputType="phone"
+        android:text="@string/call"
+        android:gravity="center"
+        android:layout_height="65dp"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="286dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="-18dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:textColor="@color/light_blue"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="@string/cancel"
+            android:onClick="cancel"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="1dp"
+            android:fontFamily="@font/fonts_gotham"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="@string/callus"
+            android:onClick="Call"
+            android:background="@color/white"
+            android:textColor="@color/light_blue"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="1dp"
+            android:fontFamily="@font/fonts_gotham"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>
